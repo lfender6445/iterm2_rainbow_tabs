@@ -7,11 +7,11 @@ randomized tab colors for iterm2
 ```
 mkdir ~/my_script_folder
 cd ~/my_script_folder/
-git clone
+git clone git@github.com:lfender6445/iterm2_rainbow_tabs.git
+cd iterm2_rainbow_tabs
+chmod u+x iterm2_rainbow_tabs.sh
 ```
-
 then add the following to your .bash_profile or .z_profile
-
 ```
 if [ -f ~/my_script_folder/iterm2_rainbow_tabs/iterm2_rainbow_tabs.sh ];
  then . ~/my_script_folder/iterm2_rainbow_tabs/iterm2_rainbow_tabs.sh

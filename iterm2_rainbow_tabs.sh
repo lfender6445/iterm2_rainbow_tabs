@@ -344,16 +344,8 @@ function choose_random_color() {
     'tab_white')
 
   random=$$$(date +%s)
-  new_color=${my_favorite_colors[$random % ${#my_favorite_colors[@]}]}
   new_color=$'%s\n' "${my_favorite_colors[$(($(rand "${#my_favorite_colors[*]}")+1))]}"
-  echo $new_color
-  # eval ${new_color}
-}
-
-rand_element () {
-  local -a th=("$@")
-  unset th[0]
-  printf $'%s\n' "${th[$(($(rand "${#th[*]}")+1))]}"
+  eval ${new_color}
 }
 
 choose_random_color
