@@ -11,14 +11,17 @@ git clone git@github.com:lfender6445/iterm2_rainbow_tabs.git
 cd iterm2_rainbow_tabs
 chmod u+x iterm2_rainbow_tabs.sh
 ```
-then add the following to your ~/.bash_profile (bash) or ~/.zprofile (zsh)
+then add the following to your `~/.bash_profile` (bash) or ~ `/.zprofile (zsh)`
+
+__dont forget__ to update the path so it points to the right file
+
 ```
 if [ -f ~/my_script_folder/iterm2_rainbow_tabs/iterm2_rainbow_tabs.sh ];
  then . ~/my_script_folder/iterm2_rainbow_tabs/iterm2_rainbow_tabs.sh
 fi
 ```
 
-start a new terminal session or open a new tab
+start a new terminal session or open a new tab. enjoy!
 
 # modifying the colors
 
