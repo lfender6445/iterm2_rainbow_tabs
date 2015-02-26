@@ -1,6 +1,7 @@
-# iterm2 rainbow tabs
+# iTerm2 rainbow tabs
 
-randomized tab colors for iterm2
+randomized tab colors for iTerm2
+
 ![iterm2 rainbow tabs](http://i.imgur.com/lAMHLEJ.png)
 
 # install
