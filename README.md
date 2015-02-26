@@ -11,7 +11,7 @@ git clone git@github.com:lfender6445/iterm2_rainbow_tabs.git
 cd iterm2_rainbow_tabs
 chmod u+x iterm2_rainbow_tabs.sh
 ```
-then add the following to your .bash_profile or .z_profile
+then add the following to your ~/.bash_profile (bash) or ~/.zprofile (zsh)
 ```
 if [ -f ~/my_script_folder/iterm2_rainbow_tabs/iterm2_rainbow_tabs.sh ];
  then . ~/my_script_folder/iterm2_rainbow_tabs/iterm2_rainbow_tabs.sh

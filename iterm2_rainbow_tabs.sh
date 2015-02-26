@@ -1,53 +1,5 @@
 # Usage:
 #   Source this script from your Bash start-up script (eg. ~/.bashrc, ~/.bash_profile).
-#
-# Setting titles:
-#   title something
-#   title "more than 1 word"
-#
-# Setting tab colors:
-#   tab_color 195  89  76
-#   tab_color 219 154  88
-#   tab_color 145 185 104
-#   tab_color  92 155 204
-#
-# Setting pre-defined tab colors with titles:
-#   tab_red "Rails Server"
-#   tab_orange "Rails Console"
-#   tab_blue "SQL Dev"
-#   tab_green "Tests"
-
-title_help0()
-{
-  echo "ERROR: No argument provided."
-  echo "Usage:"
-  echo "  `basename -- $0` \"title\" to provide a new Terminal title."
-}
-
-title_help2()
-{
-  echo "ERROR: Too many arguments provided."
-  echo "Usage:"
-  echo "  `basename -- $0` \"title\" to provide a new Terminal title."
-}
-
-function set_iterm_title() {
-if [ $# -eq 0 ]
-then
-  title_help0;
-elif [ $# -eq 1 ]
-then
-  echo -ne "\033]0;$1\007"
-elif [ $# -gt 1 ]
-then
-  title_help2;
-fi
-}
-alias title='set_iterm_title'
-
-function titlepwd() {
-set_iterm_title `pwd`
-}
 
 function tab_maroon { title "$1"; tab_color 128 0 0; }
 function tab_dark_red { title "$1"; tab_color 139 0 0; }
