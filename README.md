@@ -36,7 +36,7 @@ then call `tab_orange_red` from command line to try out different colors!
 if there is a color you dont like, you can remove it from the array `my_favorite_colors` defined at the bottom the script.
 
 # misc
-__over 100__ [iTerm2 color schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
+over 100 free [iTerm2 color schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
 
 # thanks
 https://github.com/jacaetevha/finna-be-octo-hipster/
