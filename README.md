@@ -1,8 +1,8 @@
 # iTerm2 rainbow tabs
 
-randomized tab colors for iTerm2
+__randomized tab colors for iTerm2__
 
-![iterm2 rainbow tabs](http://i.imgur.com/lAMHLEJ.png)
+![iterm2 rainbow tabs](http://i.imgur.com/lAMHLEJ.png?4)
 
 # install
 
@@ -36,7 +36,7 @@ then call `tab_orange_red` from command line to try out different colors!
 if there is a color you dont like, you can remove it from the array `my_favorite_colors` defined at the bottom the script.
 
 # misc
-[iTerm2 color schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
+__over 100__ [iTerm2 color schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
 
 # thanks
 https://github.com/jacaetevha/finna-be-octo-hipster/
