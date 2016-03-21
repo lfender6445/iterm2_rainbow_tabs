@@ -6,7 +6,7 @@ __randomized tab colors for iTerm2__
 
 # install
 
-```
+```sh
 mkdir ~/my_script_folder
 cd ~/my_script_folder/
 git clone git@github.com:lfender6445/iterm2_rainbow_tabs.git
@@ -17,7 +17,7 @@ then add the following to your `~/.bash_profile` (bash) or ~ `/.zprofile (zsh)`
 
 __dont forget__ to update the path so it points to the right file
 
-```
+```sh
 if [ -f ~/my_script_folder/iterm2_rainbow_tabs/iterm2_rainbow_tabs.sh ];
  then . ~/my_script_folder/iterm2_rainbow_tabs/iterm2_rainbow_tabs.sh
 fi
